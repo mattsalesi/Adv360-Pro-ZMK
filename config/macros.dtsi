@@ -1,8 +1,8 @@
-macro_cmdoptctrl: macro_cmdoptctrl{
+macro_hideothers: macro_hideothers{
 compatible = "zmk,behavior-macro";
-label = "macro_cmdoptctrl";
+label = "macro_hideothers";
 #binding-cells = <0>;
-bindings = <&kp LG(LA(RCTRL))>;
+bindings = <&kp LG(LA(H))>;
 };
 macro_mute: macro_mute{
 compatible = "zmk,behavior-macro";
