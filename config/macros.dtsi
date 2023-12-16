@@ -8,7 +8,7 @@ macro_mute: macro_mute{
 compatible = "zmk,behavior-macro";
 label = "macro_mute";
 #binding-cells = <0>;
-bindings = <&kp LG(LA(RC))>;
+bindings = <&kp LG(LA(RC(M)))>;
 };
 macro_screenshot: macro_screenshot{
 compatible = "zmk,behavior-macro";
