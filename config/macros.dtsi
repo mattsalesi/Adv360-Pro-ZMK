@@ -1,8 +1,8 @@
-macro_hideothers: macro_hideothers{
+macro_hide: macro_hide{
 compatible = "zmk,behavior-macro";
-label = "macro_hideothers";
+label = "macro_hide";
 #binding-cells = <0>;
-bindings = <&kp LG(LA(H))>;
+bindings = <&kp LG(H)>;
 };
 macro_mute: macro_mute{
 compatible = "zmk,behavior-macro";
